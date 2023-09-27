@@ -1,0 +1,320 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	border-radius: 20px;
+}
+
+img
+{
+	font-size: 19px;
+	text-align: left;
+	color: black;
+}
+
+.class0
+img:hover
+{
+	opacity: 0.5;
+}
+
+h1
+{
+	border: 2px solid lightgrey;
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	/*text-shadow: -1px 2px 0 black, 2px 2px 0 black, 2px -1px 0 black, -1px -1px 0 black;*/
+}
+
+h3
+{
+	/*text-shadow: 0px 0px 8px white;*/
+	/*border: 2px solid white;*/
+	border-radius: 20px;
+	background-color: ghostwhite;
+	color: black;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: green;
+	rel: noopener noreferrer;
+}
+
+a:hover
+{
+	color: red;
+}
+
+.class1
+a:hover
+{
+	color: red;
+}
+
+.class3
+a:hover
+{
+	color: red;
+}
+
+.class4
+a:hover
+{
+	color: red;
+}
+
+.class5
+a:hover
+{
+	color: red;
+}
+
+.class1
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.class3
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.class4
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.class5
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#buttonstyle /*Button - Move to contents*/
+{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	position: fixed; /*It also merges all the button into one button*/
+	bottom: 30px;
+	right: 30px;
+}
+
+.class6
+input:hover
+{
+	color: red;
+}
+
+.class7
+input:hover
+{
+	color: red;
+}
+
+.class6
+input
+{
+	background-color: lightgrey;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.class7
+input
+{
+	background-color: lightgrey;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.class1
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+}
+
+.class1
+ol
+{
+	margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+
+th
+{
+	border: 1px solid lightgrey;
+}
+
+td
+{
+	font-size: 17px;
+}
+
+.class2
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+}
+
+.class3
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+}
+
+.class4
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+}
+
+.class5
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+}
+
+.class6
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+	font-size: 20px;
+}
+
+.class7
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+	font-size: 20px;
+}
+
+.class8
+{
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+	color: black;
+	font-size: 20px;
+}
+
+.class8
+img 
+{
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+.class8
+img:hover 
+{
+  opacity: 1.0;
+
+}
+
+.roster
+{
+	display: none;
+	position: absolute;
+}
+
+/*class8 dropdown button - Year*/
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
